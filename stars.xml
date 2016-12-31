@@ -1,0 +1,16 @@
+<generator>
+    <template><star /></template>
+    <set name="star">
+        <element weight="64">Type M, red</element>
+        <element weight="32">Type K, orange</element>
+        <element weight="16">Type G, yellow</element>
+        <element weight="8">Type F, yellow white</element>
+        <element weight="4">Type A, white</element>
+        <element weight="2">Type B, blue white</element>
+        <element weight="1">Type O, blue</element>
+        <element weight="4">Barycenter:
+    1. <star />
+    2. <star />
+</element>
+    </set>
+</generator>
