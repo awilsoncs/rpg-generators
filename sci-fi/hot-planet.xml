@@ -1,0 +1,10 @@
+<generator>
+	<template><hot-planet /></template>
+	<set name="hot-planet">
+    	<el>Scalding planet</el>
+    	<el>Molten planet</el>
+    	<el>Acid planet</el>
+    	<el>Hot desert planet</el>
+    	<el>Hot rocky planet</el>
+	</set>
+</generator>

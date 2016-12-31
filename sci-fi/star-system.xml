@@ -1,22 +1,26 @@
 <generator>
-<template>Star:
+<template>
+============================================================
+Star:
     <open file="./stars.xml" />
 Faction:
     <presence-types />
 Planets:
     <hot-planets-group /><temp-planets-group /><cold-planets-group />
+Anomaly:
+    <anomaly />
 </template>
 
 <!-- Generates a list of hot planets -->
 <set name="hot-planets-group">
-    <el weight="1"><hot-planets />
+    <el weight="1"><open file="./hot-planet.xml" />
     <hot-planets-group /></el>
     <el weight="1"></el>
 </set>
 
 <!-- Generates a list of temp planets -->
 <set name="temp-planets-group">
-    <el weight="5"><temp-planets />
+    <el weight="5"><open file="./temperate-planet.xml" />
     <temp-planets-group /></el>
     <el weight="5"></el>
 </set>
@@ -33,44 +37,6 @@ Planets:
     <el>Ice planet</el>
     <el>Cold gas giant</el>
     <el>Frozen rock</el>
-    <el>Frozen desert</el>
-</set>
-
-<set name="temp-planets">
-    <el>Temperate gas giant</el>
-    <el><biome /> world</el>
-</set>
-
-<set name="hot-planets">
-    <el>Scalding planet</el>
-    <el>Molten planet</el>
-    <el>Acid planet</el>
-    <el>Hot desert planet</el>
-    <el>Hot rocky planet</el>
-</set>
-
-<set name="biome">
-    <el>Jungle</el>
-    <el>Swamp</el>
-    <el>Tundra</el>
-    <el>Plains</el>
-    <el>Continental</el>
-    <el>Ocean</el>
-    <el>Desert</el>
-    <el>Forest</el>
-    <el>City</el>
-    <el>Terran</el>
-    <el>Volcanic</el>
-    <el>Dead</el>
-    <el>Tomb</el>
-    <el>Barren</el>
-    <el>Acid</el>
-</set>
-
-<set name="habitable-count">
-    <el weight="4">0</el>
-    <el weight="2">1</el>
-    <el weight="1"><dice n="1" sides="4" /></el>
 </set>
 
 <set name="presence-types">
@@ -102,5 +68,11 @@ Planets:
     <el weight="2">scouts</el>
     <el weight="2">mining drones</el>
     <el weight="2">extremists</el>
+</set>
+
+<set name="anomaly">
+    <el weight="5">distress beacon</el>
+    <el weight="1">solar storm</el>
+    <el weight="10"></el>
 </set>
 </generator>

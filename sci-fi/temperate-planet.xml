@@ -1,0 +1,25 @@
+<generator>
+	<template><temp-planet /></template>
+	<set name="temp-planet">
+    	<el weight="10">Temperate gas giant</el>
+    	<el weight="6"><biome /> world</el>
+    	<el weight="1">Temperate gas giant (<open file="./planetary-special.xml" />)</el>
+    	<el weight="1"><biome /> world (<open file="./planetary-special.xml"/>)</el>
+	</set>
+	<set name="biome">
+	    <el weight="5">Jungle</el>
+	    <el weight="5">Swamp</el>
+	    <el weight="5">Tundra</el>
+	    <el weight="5">Plains</el>
+	    <el weight="7">Continental</el>
+	    <el weight="7">Ocean</el>
+	    <el weight="7">Desert</el>
+	    <el weight="5">Forest</el>
+	    <el weight="2">City</el>
+	    <el weight="5">Volcanic</el>
+	    <el weight="2">Dead</el>
+	    <el weight="1">Tomb</el>
+	    <el weight="10">Barren</el>
+	    <el weight="2">Acid</el>
+	</set>
+</generator>

@@ -1,0 +1,9 @@
+<generator>
+	<template><special /></template>
+
+	<set name="special">
+		<el>orbital weapon</el>
+		<el>crystalline structure</el>
+		<el>precursor ruins</el>
+	</set>
+</generator>
