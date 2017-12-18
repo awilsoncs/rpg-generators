@@ -1,0 +1,70 @@
+<generator>
+    <template><divine-spirit /></template>    
+    <set name="divine-spirit">
+        <el><divine-entity /> of <portfolio /></el>
+    </set>
+    <set name="divine-entity">
+        <el weight="5">the goddess</el>
+        <el weight="5">the god</el>
+        <el>a hero</el>
+        <el>a <modifier /> hero</el>
+        <el>a heroine</el>
+        <el>a <modifier /> heroine</el>
+        <el>a spirit</el>
+        <el>a <modifier /> spirit</el> 
+        <el>a demon</el>
+        <el>a <modifier /> demon</el>
+        <el>the demon prince</el>
+    </set>
+
+    <set name="modifier">
+        <el>legendary</el>
+        <el>forgotten</el>
+        <el>minor</el>
+        <el>popular</el>
+        <el>hated</el>
+    </set>
+
+    <set name="portfolio">
+        <el><domain /></el>
+        <el weight="0.5"><domain /> and <domain /></el>
+    </set>
+    <set name="domain">
+        <el>the woods</el>
+        <el>life</el>
+        <el>the elements</el>
+        <el>fire</el>
+        <el>water</el>
+        <el>air</el>
+        <el>earth</el>
+        <el>the arts</el>
+        <el>humans</el>
+        <el>elves</el>
+        <el>dwarves</el>
+        <el>dreams</el>
+        <el>goblins</el>
+        <el>dragons</el>
+        <el>wealth</el>
+        <el>nature</el>
+        <el>the river</el>
+        <el>the moon</el>
+        <el>the stars</el>
+        <el>the night</el>
+        <el>fertility</el>
+        <el>law</el>
+        <el>knowledge</el>
+        <el>mountains</el>
+        <el>animals</el>
+        <el>the harvest</el>
+        <el>the hunt</el>
+        <el>books</el>
+        <el>secrets</el>
+        <el>tricks</el>
+        <el>memories</el>
+        <el>health</el>
+        <el>the forge</el>
+        <el>the sun</el>
+        <el>death</el>
+        <el>the ocean</el>
+    </set>
+</generator>

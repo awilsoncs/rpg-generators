@@ -1,0 +1,32 @@
+<generator>
+	<template><weather /></template>
+    <set name="weather">
+        <el><temperature /></el>
+        <el><precipitation /></el>
+        <el>Anomalous weather</el>
+        <el weight="0.01">Magical weather</el>
+        <el>There is a storm brewing.</el>
+        <el>Gusting wind</el>
+        <el>Fog rolls in. It lasts for <dice n="1" sides="10" /> hours.</el>
+    </set>
+
+    <set name="temperature">
+    	<el>Unseasonably cold</el>
+    	<el>Unseasonably warm</el>
+    	<el>It is cooling down</el>
+    	<el>It is warming up</el>
+    </set>
+
+    <set name="precipitation">
+    	<el>drizzle</el>
+    	<el>light snowfall</el>
+    	<el>flurry</el>
+    	<el>snowfall</el>
+    	<el>rain</el>
+    	<el>downpour</el>
+    	<el>storm</el>
+    	<el>squal</el>
+    	<el>windstorm</el>
+    	<el>thunderstorm</el>
+    </set>
+</generator>

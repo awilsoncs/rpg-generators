@@ -1,0 +1,79 @@
+<generator>
+    <template><appearances /></template>
+    <set name="appearances">
+        <el><eyeTypes /> eyes</el>
+        <hair />
+        <clothes />
+        <body />
+    </set>
+    <set name="eyeTypes">
+        <el>Knowing</el>
+        <el>Fiery</el>
+        <el>Joyous</el>
+        <el>Kind</el>
+        <el>Sharp</el>
+        <el>Sad</el>
+        <el>Wise</el>
+        <el>Wild</el>
+        <el>Haunted</el>
+        <el>Crazy</el>
+        <el>Haunting</el>
+        <el>Hard</el>
+        <el>Dead</el>
+        <el>Eager</el>
+        <el>Glowing</el>
+        <el>Animal</el>
+        <el>Shifty</el>
+    </set>
+    <set name="hair">
+        <el>Fancy hair</el>
+        <el>Wild hair</el>
+        <el>Shorn hair</el>
+        <el>Messy hair</el>
+        <el>Braided hair</el>
+        <el>Messy hair</el>
+        <el>Strange hair</el>
+        <el>Styled hair</el>
+        <el>Bald</el>
+    </set>
+    <set name="clothes">
+        <el>Wearing finery</el>
+        <el>Furry hood</el>
+        <el>Stylish cap</el>
+        <el>Wears a hood</el>
+        <el>Wears a pointed hat</el>
+        <el>Wears worn robes</el>
+        <el>Wears stylish robes</el>
+        <el>Wears strange robes</el>
+        <el>Traveling clothes</el>
+        <el>Poor clothes</el>
+        <el>Wears a cap</el>
+        <el>Flowing robes</el>
+        <el>Habit</el>
+        <el>Ceremonial garb</el>
+        <el>Practical leathers</el>
+        <el>Weathered hides</el>
+        <el>Common garb</el>
+        <el>Wears a worn holy symbol</el>
+        <el>Wears a fancy holy symbol</el>
+    </set>
+    <set name="body">
+        <el><bodyType /> body</el>
+    </set>
+    <set name="bodyType">
+        <el>Fit</el>
+        <el>Well-fed</el>
+        <el>Thin</el>
+        <el>Knobby</el>
+        <el>Flabby</el>
+        <el>Calloused</el>
+        <el>Tanned</el>
+        <el>Scarred</el>
+        <el>Built</el>
+        <el>Lithe</el>
+        <el>Ravaged</el>
+        <el>Bulky</el>
+        <el>Pudgy</el>
+        <el>Creepy</el>
+    </set>
+</generator>

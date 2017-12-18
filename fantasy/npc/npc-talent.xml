@@ -1,0 +1,61 @@
+<generator>
+    <template><talent /></template>
+    <!-- Talents -->
+    <set name="talent">
+        <el>Plays the <instrument /></el>
+        <el>Speaks several languages fluently</el>
+        <el>Unbelievably lucky</el>
+        <el>Perfect memory</el>
+        <el>Great with animals</el>
+        <el>Great with children</el>
+        <el>Great at solving puzzles</el>
+        <el>Great at <games /></el>
+        <el>Great at impersonation</el>
+        <el>Draws beautifully</el>
+        <el>Paints beautifully</el>
+        <el>Sings beautifully</el>
+        <el>Drinks everyone under the set</el>
+        <el><skillLevel /> <expertise /></el>
+        <el>Skilled actor and master of disguise</el>
+        <el>Knows thieves' cant</el>
+    </set>
+    <set name="games">
+        <el>dice games</el>
+        <el>card games</el>
+    </set>
+    <set name="instrument">
+        <el>lyre</el>
+        <el>lute</el>
+        <el>pan flute</el>
+        <el>drum</el>
+        <el>zither</el>
+    </set>
+    <set name="skillLevel">
+        <el weight="16">Miserable</el>
+        <el weight="32">Promising</el>
+        <el weight="16">Talented</el>
+        <el weight="8">Skilled</el>
+        <el weight="4">Expert</el>
+        <el weight="2">Master</el>
+        <el weight="1">Legendary</el>
+    </set>
+    <set name="expertise">
+        <el>scribe</el>
+        <el>dancer</el>
+        <el>tailor</el>
+        <el>actor</el>
+        <el>woodcarver</el>
+        <el>stonecarver</el>
+        <el>bookkeeper</el>
+        <el>manager</el>
+        <el>architect</el>
+        <el>tactician</el>
+        <el>medic</el>
+        <el>cook</el>
+        <el>dart thrower</el>
+        <el>rock skipper</el>
+        <el>sword fighter</el>
+        <el>archer</el>
+        <el>juggler</el>
+    </set>
+</generator>

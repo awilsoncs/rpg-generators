@@ -1,0 +1,54 @@
+<generator>
+    <template><event /></template>
+    <set name="event">
+        <el weight="3">Chance to become lost (DC 15)</el>
+        <el weight="2">Nothing exciting happens</el>
+        <el weight="2">(Weather Change) <open file="./weather" /></el>
+        <el weight="2">(Celestial Event) <open file="./celestial-event.xml" /></el>
+        <el weight="5">(Interesting Site) <site /></el>
+        <el weight="2">(Encounter) <open file="./encounter.xml" /></el>
+        <el weight="1">(Haunt) <open file="./night-creature.xml" /></el>
+        <el weight="2">(Ambush) <open file="./encounter.xml" /></el>
+    </set>
+
+    <set name="site">
+        <el weight="2"><cave /></el>
+        <el weight="1"><open file="./monument.xml" /></el>
+        <el weight="1"><open file="./forest-hut.xml" /></el>
+        <el weight="1"><largeTree /></el>
+        <el weight="1"><forestGlade /></el>
+        <el weight="1"><bodyWater /></el>
+        <el weight="1"><building /></el>
+    </set>
+    <set name="cave">
+        <el>Gemstone mine.</el>
+        <el>An empty cave.</el>
+        <el>Cave. <open file="./encounter.xml" /></el>
+        <el>Entrance to the Underdark.</el>
+    </set>
+    <set name="largeTree">
+        <el>Very large tree.</el>
+    </set>
+    <set name="forestGlade">
+        <el>Forest glade.</el>
+    </set>
+    <set name="bodyWater">
+        <el weight="5">Creek.</el>
+        <el weight="5">Stream.</el>
+        <el weight="5">Brook.</el>
+        <el weight="5">Pond.</el>
+        <el weight="3">Lake.</el>
+        <el weight="1">Waterfall.</el>
+    </set>
+    <set name="building">
+        <el weight="3">Stone tower</el>
+        <el weight="2"><size /> fort</el>
+        <el weight="2">Ruined keep</el>
+        <el weight="2">Bandit keep</el>
+    </set>
+    <set name="size">
+        <el weight="4">Small</el>
+        <el weight="2">Medium</el>
+        <el weight="1">Large</el>
+    </set>
+</generator>

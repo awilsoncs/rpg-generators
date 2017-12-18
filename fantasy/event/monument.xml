@@ -1,0 +1,42 @@
+<generator>
+    <template>You come upon <description />.<extra /></template>
+    <set name="description">
+        <el>a cairn</el>
+        <el>a native religious statue (<condition />)</el>
+        <el>an ancient statue, (worn beyond recognition)</el>
+        <el><dice n="1" sides="4" /> monolith(s)</el>
+        <el><dice n="1" sides="4" /> large boulders</el>
+        <el>a worn statue</el>
+        <el>an ancient well</el>
+        <el>a statue of <divine-spirit />, (<condition />)</el>
+        <el>a demonic shrine</el>
+    </set>
+    <set name="condition">
+        <el>worn</el>
+        <el>very worn</el>
+        <el>nearly indistinguishable</el>
+        <el>fine condition</el>
+        <el>lightly worn</el>
+    </set>
+    <set name="divine-spirit">
+        <el><open file="./divine-spirit.xml" /></el>
+    </set>
+    <set name="extra">
+        <el></el>
+        <el> There are <flowerColor /> flowers growing at the base.</el>
+        <el> There is a wreath of vines at the base.</el>
+        <el> Undergrowth nearly hides it completely.</el>
+        <el> There is a slaughtered animal at the base.</el>
+        <el> There are ashes scattered at the base.</el>
+        <el> There are <dice n="1" sides="6" /> gold pieces at the base.</el>
+        <el> There appears to be blood smeared on the surface.</el>
+        <el> On the surface, <open file="./scrawling.xml"/></el>
+    </set>
+    <set name="flowerColor">
+        <el>blue</el>
+        <el>red</el>
+        <el>yellow</el>
+        <el>white</el>
+        <el>purple</el>
+    </set>
+</generator>

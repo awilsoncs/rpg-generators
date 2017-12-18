@@ -1,0 +1,143 @@
+<generator>
+    <template><npcType /></template>
+    <set name="npcType">
+        <standardNPC weight="10" />
+        <villainNPC weight="1" />
+    </set>
+    <template name="commonAttributes">
+        <gender />
+        <open file="./npc-appearance.xml" />
+        <open file="./npc-talent.xml" />
+        <open file="./npc-knowledge.xml" />
+        <mannerism />
+        <interaction />
+        <bond />
+        <open file="./npc-ideal.xml" />
+        <flaw />
+    </template>
+    <template name="standardNPC"><commonAttributes /></template>
+    <template name="villainNPC">
+        <commonAttributes />
+        <threatLevel />
+    </template>
+    <set name="gender">
+        <el>Man</el>
+        <el>Woman</el>
+    </set>
+    <!-- Mannerisms -->
+    <set name="mannerism">
+        <el>Prone to singing, whistling, or humming quietly</el>
+        <el>Speaks in rhyme or some other peculiar way</el>
+        <el>Particularly low or high voice</el>
+        <el>Slurs words, lisps, or stutters</el>
+        <el>Enunciates overly clearly</el>
+        <el>Speaks loudly</el>
+        <el>Whispers</el>
+        <el>Uses flowery speech or long words</el>
+        <el>Frequently uses the wrong word</el>
+        <el>Uses colorful oaths and exclamations</el>
+        <el>Makes constant jokes or puns</el>
+        <el>Prone to prediction of doom</el>
+        <el>Fidgets</el>
+        <el>Squints</el>
+        <el>Stares into the distance</el>
+        <el>Chews something</el>
+        <el>Paces</el>
+        <el>Taps fingers</el>
+        <el>Bites fingernails</el>
+        <el>Twirls hair or tugs beard</el>
+    </set>
+    <!-- Interactions -->
+    <set name="interaction">
+        <el>Argumentative</el>
+        <el>Arrogant</el>
+        <el>Blustering</el>
+        <el>Rude</el>
+        <el>Curious</el>
+        <el>Friendly</el>
+        <el>Helpful</el>
+        <el>Dismissive</el>
+        <el>Honest</el>
+        <el>Hot tempered</el>
+        <el>Irriset</el>
+        <el>Skeptical</el>
+        <el>Gullible</el>
+        <el>Sympathetic</el>
+        <el>Flirtatious</el>
+        <el>Ponderous</el>
+        <el>Quiet</el>
+        <el>Suspicious</el>
+    </set>
+    <!-- Bonds -->
+    <set name="bond">
+        <el>Dedicated to fulfilling a personal life goal</el>
+        <el>Protective of <relations /></el>
+        <el>Loyal to a <loyalties /></el>
+        <el>Captivated by a romantic interest</el>
+        <el>Drawn to a special place</el>
+        <el>Protective of a sentimental keepsake</el>
+        <el>Protective of a valuable possession</el>
+        <el>Out for revenge</el>
+    </set>
+    <set name="loyalties">
+        <el>benefactor</el>
+        <el>patron</el>
+        <el>employer</el>
+    </set>
+    <set name="relations">
+        <el>close family members</el>
+        <el>friends</el>
+        <el>best friend</el>
+        <el>mother</el>
+        <el>father</el>
+        <el>daughter</el>
+        <el>son</el>
+        <el>children</el>
+        <el>parents</el>
+        <el>aunt</el>
+        <el>uncle</el>
+        <el>grandmother</el>
+        <el>grandfather</el>
+    </set>
+    <!-- Flaws -->
+    <set name="flaw">
+        <el>Forbidden love or susceptibility to romance</el>
+        <el>Enjoys decadent pleasures</el>
+        <el>Arrogance</el>
+        <el>Envies another creature's possessions or station</el>
+        <el>Prone to <emotions /></el>
+        <el>Has a powerful enemy</el>
+        <el>Addiction</el>
+        <el>Deep in debt</el>
+        <el>Afraid of <phobias /></el>
+        <el>Shameful or scandalous history</el>
+        <el>Secret crime or misdeed</el>
+        <el>Possession of forbidden lore</el>
+        <el>Foolhardy bravery</el>
+    </set>
+    <set name="phobias">
+        <el>spiders</el>
+        <el>the dark</el>
+        <el>cemeteries</el>
+        <el>heights</el>
+        <el>water</el>
+        <el>magic</el>
+    </set>
+    <set name="emotions">
+        <el>depression</el>
+        <el>self-deprecation</el>
+        <el>anger</el>
+        <el>rage</el>
+        <el>mania</el>
+        <el>fright</el>
+        <el>existential breakdowns</el>
+        <el>delusions of grandeur</el>
+        <el>paranoia</el>
+    </set>
+    <set name="threatLevel">
+        <el>low</el>
+        <el>medium</el>
+        <el>major</el>
+        <el>deadly</el>
+    </set>
+</generator>

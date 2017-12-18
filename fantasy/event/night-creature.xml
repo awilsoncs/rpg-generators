@@ -1,0 +1,65 @@
+<generator>
+    <template><nightCreature /></template>
+    <import from="./scrawling.xml" as="scrawling" />
+    <set name="nightCreature">
+        <lycanthrope />
+        <ghost />
+        <shapelessHorror />
+    </set>
+    <set name="shapelessHorror">
+        <el>A form in the shadows. </el>
+        <el>A form in the mist. </el>
+        <el>A face in the darkness. </el>
+    </set>
+    <set name="ghost">
+        <el>A <person /> whose body is twisted and cracked. <scaryFeature /></el>
+        <el>You feel a tug on your pack. </el>
+        <el>You feel a violent scratch on your back. </el>
+        <el>You hear <thingsToHear /> just beyond your field of vision. </el>
+    </set>
+    <set name="person">
+        <el><personType /> man</el>
+        <el><personType /> woman</el>
+        <el weight="0.1"><personType /> boy</el>
+        <el weight="0.1"><personType /> child</el>
+        <el weight="0.1"><personType /> girl</el>
+    </set>
+    <set name="personType">
+        <el>pale</el>
+        <el>gaunt</el>
+        <el>stretched</el>
+    </set>
+    <set name="thingsToHear">
+        <el>chains</el>
+        <el>chopping</el>
+        <el>dragging</el>
+        <el>gentle sobbing</el>
+        <el>a child's laughter</el>
+    </set>
+    <set name="lycanthrope">
+        <el><animal /> painfully twisted into the shape of a human. <scaryFeature /></el>
+    </set>
+    <set name="scaryFeature">
+        <el>It drags a child's doll behind it. </el>
+        <el>It stares with unblinking eyes. </el>
+        <el>Long black hair hangs from its head. </el>
+        <el>Its skin hangs loosely on its bones. </el>
+        <el>It staggers in a halting motion. </el>
+        <el>It watches. </el>
+        <el>It groans as it crawls toward you. </el>
+        <el>Its mouth hangs wide. </el>
+        <el>It beckons to you. </el>
+        <el>It has no face.</el>
+        <el>It gurgles a cry for help</el>
+        <el>It moans, "<phrase from="scrawling" />"</el>
+        <el>It screams, "<phrase from="scrawling" />!"</el>
+        <element />
+    </set>
+    <set name="animal">
+        <el>A moose</el>
+        <el>A dog</el>
+        <el>A deer</el>
+        <el>A wolf</el>
+        <el>A large owl</el>
+    </set>
+</generator>

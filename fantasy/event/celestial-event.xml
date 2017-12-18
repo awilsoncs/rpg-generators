@@ -1,0 +1,58 @@
+<generator>
+    <template><event /></template>
+    <set name="event">
+        <el><constellation /></el>
+        <el><special />. <significance /></el>
+    </set>
+
+    <set name="constellation">
+        <el>The constellation of <open file="./divine-spirit.xml" /> <constellation-behavior />.</el>
+    </set>
+
+    <set name="constellation-behavior">
+        <el weight="10">glows brightly</el>
+        <el>is obscured by the moon</el>
+        <el>is obscured by storm clouds</el>
+        <el>is obscured by fog</el>
+        <el>is obscured by clouds</el>
+        <el>seems to dance in the sky</el>
+        <el>hovers near the horizon</el>
+        <el>hangs overhead</el>
+    </set>
+
+    <set name="special">
+        <el>Shooting star</el>
+        <el>Aurora</el>
+        <el>Comet appears</el>
+        <el>Lunar eclipse</el>
+        <el>Meteor shower</el>
+        <el>Fireball</el>
+        <el>Planets align</el>
+        <el>Mysterious lights zoom off</el>
+    </set>
+    <set name="significance">
+        <el>This is a sign from <open file="./divine-spirit.xml" />.</el>
+        <el>This event is insignificant.</el>
+        <el>A time for conjuring is upon you.</el>
+        <el>The Great Old One watches you.</el>
+        <el>The Archfey smiles on you.</el>
+        <el>The Fiend grins.</el>
+        <el>Who knows what this could mean?</el>
+        <el>A prophecy closes in a distant land.</el>
+        <el>A <person /> is born in a <distance /> land.</el>
+    </set>
+
+    <set name="person">
+        <el>king</el>
+        <el>queen</el>
+        <el>prince</el>
+        <el>princess</el>
+        <el>hero</el>
+    </set>
+
+    <set name="distance">
+        <el>nearby</el>
+        <el>remote</el>
+        <el>distant</el>
+    </set>
+</generator>  

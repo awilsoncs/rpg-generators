@@ -1,0 +1,124 @@
+<generator>
+    <template>'<phrase />' is <medium /></template>
+    <set name="phrase">
+        <el weight="0.02"><gibberishPhrase /></el>
+        <el weight="1.0"><subject /> <verb /><object /></el>
+    </set>
+    <set name="medium">
+        <el>scrawled in blood.</el>
+        <el>scrawled in ashes.</el>
+        <el>scrawled in mud.</el>
+        <el>written in charcoal.</el>
+        <el>scratched in the dirt.</el>
+    </set>
+    <set name="subject">
+        <el>The <sel name="noun"/></el>
+        <el><sel name="pronoun"/></el>
+    </set>
+    <set name="object">
+        <el></el>
+        <el> the <noun /></el>
+        <el> <objectPronoun /></el>
+    </set>
+    <set name="noun">
+        <el>arcane</el>
+        <el>beast</el>
+        <el>blood</el>
+        <el>bone</el>
+        <el>cut</el>
+        <el>chief</el>
+        <el>child</el>
+        <el>dagger</el>
+        <el>dark</el>
+        <el>darkness</el>
+        <el>eye</el>
+        <el>gold</el>
+        <el>king</el>
+        <el>one</el>
+        <el>skin</el>
+        <el>sky</el>
+        <el>stone</el>
+        <el>sword</el>
+        <el>thief</el>
+        <el>throat</el>
+        <el>trap</el>
+        <el>tree</el>
+        <el>man</el>
+        <el>woman</el>
+        <el><gibberishWord /></el>
+    </set>
+    <set name="pronoun">
+        <el>He</el>
+        <el>She</el>
+        <el>It</el>
+        <el>One</el>
+    </set>
+    <set name="objectPronoun">
+        <el>him</el>
+        <el>her</el>
+        <el>it</el>
+        <el>them</el>
+    </set>
+    <set name="verb">
+        <el>breathes</el>
+        <el>cuts</el>
+        <el>cut</el>
+        <el>draws</el>
+        <el>drew</el>
+        <el>ends</el>
+        <el>ended</el>
+        <el>forgives</el>
+        <el>forgave</el>
+        <el>kills</el>
+        <el>killed</el>
+        <el>wears</el>
+        <el>wore</el>
+        <el>hid</el>
+    </set>
+    <set name="randomGibberish">
+        <el><gibberishWord /></el>
+        <el><gibberishPhrase /></el>
+    </set>
+    <set name="gibberishPhrase">
+        <el><randomWord /> <randomWord /> <randomWord /></el>
+        <el><randomWord /> <randomWord /></el>
+    </set>
+    <set name="randomWord">
+        <el><verb /></el>
+        <el><object /></el>
+        <el><pronoun /></el>
+        <el><objectPronoun /></el>
+    </set>
+    <set name="gibberishWord">
+        <el weight="1.0"><letter /><letter /></el>
+        <el weight="1.25"><gibberishWord /><letter /><letter /></el>
+    </set>
+    <set name="letter">
+        <el>a</el>
+        <el>b</el>
+        <el>c</el>
+        <el>d</el>
+        <el>e</el>
+        <el>f</el>
+        <el>g</el>
+        <el>h</el>
+        <el>i</el>
+        <el>j</el>
+        <el>k</el>
+        <el>l</el>
+        <el>m</el>
+        <el>n</el>
+        <el>o</el>
+        <el>p</el>
+        <el>q</el>
+        <el>r</el>
+        <el>s</el>
+        <el>t</el>
+        <el>u</el>
+        <el>v</el>
+        <el>w</el>
+        <el>x</el>
+        <el>y</el>
+        <el>z</el>
+    </set>
+</generator>

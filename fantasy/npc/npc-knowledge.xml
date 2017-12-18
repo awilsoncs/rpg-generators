@@ -1,0 +1,87 @@
+<generator>
+    <template><knowledge /></template>
+    <!-- Knowledge -->
+    <set name="knowledge">
+        <el weight="100">Best <service /> in town</el>
+        <el weight="50">Where to find <seedyThing /></el>
+        <el weight="100">Knows <taleType /> <textType /> by heart</el>
+        <el weight="50">A local lord's personality flaw or secret</el>
+        <el weight="100">Details about the nearby <landforms /></el>
+        <el weight="110">Rumors about <rumorSubjects /></el>
+        <el weight="75"><knowledge />. <knowledge/></el>
+    </set>
+    <set name="seedyThing">
+        <el>a fence</el>
+        <el>drugs</el>
+        <el>poison</el>
+        <el>a fight club</el>
+        <el>thieves' work</el>
+        <el>a gambling set</el>
+    </set>
+    <set name="taleType">
+        <el>a national</el>
+        <el>a religious</el>
+        <el>an arcane</el>
+        <el>an ancient</el>
+        <el>a primal</el>
+        <el>a historical</el>
+    </set>
+    <set name="textType">
+        <el>psalm</el>
+        <el>litany</el>
+        <el>poem</el>
+        <el>song</el>
+        <el>chant</el>
+        <el>scripture</el>
+        <el>tale</el>
+        <el>story</el>
+        <el>passage</el>
+    </set>
+    <set name="service">
+        <el>blacksmith</el>
+        <el>tanner</el>
+        <el>food</el>
+        <el>ale</el>
+        <el>inn</el>
+        <el>trader</el>
+    </set>
+    <set name="rumorSubjects">
+        <el>the king</el>
+        <el>the local lord</el>
+        <el>the nearby <landforms /></el>
+        <el>a bandit's horde</el>
+        <el>a treasure map</el>
+        <el>a magical item</el>
+        <el>a legendary monster</el>
+        <el>a tribe of <tribals /></el>
+    </set>
+    <set name="tribals">
+        <el>goblins</el>
+        <el>kobolds</el>
+        <el>orcs</el>
+        <el>gnolls</el>
+        <el>giants</el>
+        <el>murderous savages</el>
+        <el>kindly natives</el>
+        <el>wood elves</el>
+    </set>
+    <set name="landforms">
+        <el>forest</el>
+        <el>woodland</el>
+        <el>highland</el>
+        <el>mountain</el>
+        <el>river</el>
+        <el>creek</el>
+        <el>lake</el>
+        <el>pond</el>
+        <el>cave</el>
+        <el>hill</el>
+        <el>field</el>
+        <el>swamp</el>
+        <el>moore</el>
+        <el>cliff</el>
+        <el>ruin</el>
+        <el>fort</el>
+        <el>castle</el>
+    </set>
+</generator>

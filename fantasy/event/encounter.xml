@@ -1,0 +1,59 @@
+<generator>
+    <template><encounter /></template>
+    <set name="encounter">
+        <el weight="50"><common /></el>
+        <el weight="25"><uncommon /></el>
+        <el weight="5"><rare /></el>
+        <el weight="1"><mythic /></el>        
+    </set>
+    <!-- Hill Commons: Animals and NPCs, CR1 or less -->
+    <set name="npc">
+        <el><dice n="1" sides="4" /> traveller(s)</el>
+        <el><dice n="1" sides="4" /> refugee(s)</el>
+        <el><dice n="1" sides="4" /> fisher(s)</el>
+        <el><dice n="1" sides="4" /> trader(s)</el>
+        <el><dice n="1" sides="4" /> hunter(s)</el>
+        <el><dice n="1" sides="6" /> soldiers</el>
+        <el><dice n="1" sides="2" /> noble(s) and <dice n="2" sides="6" /> guards</el>        
+    </set>
+    <set name="common">
+        <el weight="3"><sel name="npc" /></el>
+        <el><dice n="1" sides="6" /> wolves</el>
+        <el><dice n="1" sides="2" /> black bear</el>
+        <el><dice n="1" sides="2" /> brown bear</el>
+        <el><dice n="1" sides="6" /> deer</el>
+        <el><dice n="1" sides="6" /> giant wolf spider(s)</el>
+        <el><dice n="1" sides="4" /> giant spider(s)</el>
+        <el><dice n="2" sides="6" /> kobolds</el>
+    </set>
+    <!-- CR2-7 -->
+    <set name="uncommon">
+        <el><dice n="1" sides="4" /> giant wasp(s)</el>
+        <el><dice n="1" sides="4" /> stray dog(s)</el>
+        <el><dice n="1" sides="2" /> giant elk</el>
+        <el><dice n="1" sides="4" /> ogre(s)</el>
+        <el><dice n="1" sides="4" /> orog(s)</el>
+        <el>Dryad</el>
+        <el>Ettercap and <dice n="1" sides="4" /> giant spider(s)</el>
+        <el>Hill giant</el>
+        <el><dice n="1" sides="4" /> wererat(s)</el>
+        <el weight="4.0"><common /> and <common /></el>
+    </set>
+    <!-- CR7-12 -->
+    <set name="rare">
+        <el>Green hag</el>
+        <el>Werewolf</el>
+        <el>Young red dragon</el>
+        <el>Young green dragon</el>
+        <el>Stone giant</el>
+        <el weight="4.0"><uncommon /> and <uncommon /></el>
+        <el weight="1.0"><uncommon /> fighting <uncommon /></el>
+    </set>
+    <!-- Dragons, CR12-17 -->
+    <set name="mythic">
+        <el>Adult red dragon</el>
+        <el>Adult green dragon</el>
+        <el weight="4.0"><rare /> and <rare /></el>
+        <el weight="1.0"><rare /> fighting <rare /></el>
+    </set>
+</generator>

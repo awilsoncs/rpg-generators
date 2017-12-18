@@ -1,0 +1,70 @@
+<generator>
+    <template><lifeform /></template>
+    <set name="lifeform">
+        <plant weight="10" />
+        <animal weight="100" />
+        <fungi weight="10" />
+    </set>
+    <set name="plant">
+        <el>plant</el>
+        <el>moss</el>
+        <el>algae</el>
+        <el>fern</el>
+        <el>flower</el>
+        <el>kelp</el>
+    </set>
+    <set name="animal">
+        <el>animal</el>
+        <set name="mammal">
+            <el>mammal</el>
+        </set>
+        <set name="bird">
+            <el>bird</el>
+        </set>
+        <set name="reptile">
+            <el>reptile</el>
+            <el>lizard</el>
+            <el>snake</el>
+            <el>turtle</el>
+            <el>crocodile</el>
+        </set>
+        <set name="amphibian">
+            <el>amphibian</el>
+            <el>salamander</el>
+            <el>frog</el>
+            <el>toad</el>
+            <el>caecilian</el>
+        </set>
+        <set name="fish">
+            <el>fish</el>
+        </set>
+        <set name="invertebrate">
+            <set name="arthropod">
+                <set name="insect">
+                    <el>insect</el>
+                </set>
+                <set name="arachnid">
+                    <el>arachnid</el>
+                    <el>spider</el>
+                    <el>scorpion</el>
+                </set>
+                <el>crab</el>
+                <el>shrimp</el>
+                <el>isopod</el>
+                <el>millipede</el>
+                <el>centipede</el>
+            </set>
+            <el>sponge</el>
+            <el>anemone</el>
+            <el>coral</el>
+            <el>starfish</el>
+            <el>urchin</el>
+        </set>
+    </set>
+    <set name="fungi">
+        <el>fungus</el>
+        <el>slime mold</el>
+        <el>mushroom</el>
+        <el>puffball</el>
+    </set>
+</generator>

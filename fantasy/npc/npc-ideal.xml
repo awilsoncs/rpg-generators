@@ -1,0 +1,94 @@
+<generator>
+    <template><ideal /></template>
+        <!-- Ideals -->
+    <set name="ideal">
+        <el><goodIdeals /> (<goodAlignments />)</el>
+        <el><evilIdeals /> (<evilAlignments />)</el>
+        <el><lawfulIdeals /> (<lawfulAlignments />)</el>
+        <el><chaoticIdeals /> (<chaoticAlignments />)</el>
+        <el><neutralIdeals /> (<neutralAlignments />)</el>
+        <el><otherIdeals /> (<alignments />)</el>
+    </set>
+    <set name="goodIdeals">
+        <el>Beauty</el>
+        <el>Charity</el>
+        <el>Greater good</el>
+        <el>Life</el>
+        <el>Respect</el>
+        <el>Self-sacrifice</el>
+    </set>
+    <set name="evilIdeals">
+        <el>Domination</el>
+        <el>Greed</el>
+        <el>Might</el>
+        <el>Pain</el>
+        <el>Retribution</el>
+        <el>Slaughter</el>
+    </set>
+    <set name="lawfulIdeals">
+        <el>Community</el>
+        <el>Fairness</el>
+        <el>Honor</el>
+        <el>Logic</el>
+        <el>Responsibility</el>
+        <el>Tradition</el>
+    </set>
+    <set name="chaoticIdeals">
+        <el>Change</el>
+        <el>Creativity</el>
+        <el>Freedom</el>
+        <el>Independence</el>
+        <el>No limits</el>
+        <el>Travel</el>
+        <el>Whimsy</el>
+    </set>
+    <set name="neutralIdeals">
+        <el>Balance</el>
+        <el>Knowledge</el>
+        <el>Live and let live</el>
+        <el>Moderation</el>
+        <el>Neutrality</el>
+        <el>People</el>
+    </set>
+    <set name="otherIdeals">
+        <el>Aspiration</el>
+        <el>Discovery</el>
+        <el>Glory</el>
+        <el>Nation</el>
+        <el>Redemption</el>
+        <el>Self-knowledge</el>
+    </set>
+    <!-- Alignments -->
+    <set name="alignments">
+        <evilAlignments />
+        <goodAlignments />
+        <lawfulAlignments />
+        <neutralAlignments />
+        <chaoticAlignments />
+    </set>
+    <set name="evilAlignments">
+        <el><lawfulness /> Evil</el>
+    </set>
+    <set name="goodAlignments">
+        <el><lawfulness /> Good</el>
+    </set>
+    <set name="lawfulAlignments">
+        <el>Lawful <moralities /></el>
+    </set>
+    <set name="chaoticAlignments">
+        <el>Chaotic <moralities /></el>
+    </set>
+    <set name="neutralAlignments">
+        <el>Neutral</el>
+    </set>
+    <set name="lawfulness">
+        <el weight="1">Lawful</el>
+        <el weight="2">Neutral</el>
+        <el weight="1">Chaotic</el>
+    </set>
+    <set name="moralities">
+        <el weight="1">Good</el>
+        <el weight="2">Neutral</el>
+        <el weight="1">Evil</el>
+    </set>
+</generator>

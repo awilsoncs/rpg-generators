@@ -1,0 +1,55 @@
+<generator>
+    <template>You come upon a forest hut.<description /><extra /></template>
+    <set name="extra">
+        <el weight="5"> <hutPeople />.</el>
+        <el weight="3"> (Encounter) <open file="./encounter.xml" />.</el>
+        <el weight="3"> Inside, you find <interestingFeature />.</el>
+        <el weight="1"> (Hidden inside, DC 15) <interestingFeature />.</el>
+    </set>
+    <set name="description">
+        <el weight="3"></el>
+        <el weight="2"> It has <additions />.</el>
+        <el weight="1"> <drama />.</el>
+    </set>
+    <set name="drama">
+        <el>The hut is on fire</el>
+        <el>Screams are coming from inside (<hutPeople />)</el>
+    </set>
+    <set name="additions">
+        <el>a smokehouse <frontBackSide /></el>
+        <el>a <garden /> garden <frontBackSide /></el>
+        <el>a fire pit <frontBackSide /></el>
+        <el>been built into a large tree</el>
+        <el>been partially destroyed by a falling tree</el>
+    </set>
+    <set name="frontBackSide">
+        <el>in the front</el>
+        <el>in the back</el>
+        <el>to one side</el>
+    </set>
+    <set name="garden">
+        <el>healthy</el>
+        <el>withered</el>
+        <el>dry</el>
+        <el>flowering</el>
+        <el>fruiting</el>
+        <el>squash</el>
+        <el>corn</el>
+        <el>pumpkin</el>
+        <el>cabbage</el>
+    </set>
+    <set name="interestingFeature">
+        <el>remains of a demonic sacrifice</el>
+        <el>evidence of a murder</el>
+        <el weight="0.1">a level 0 hoard</el>
+        <el>a treasure map</el>
+        <el>a weapon stash</el>
+        <el>a set of tools</el>
+        <el><dice n="2" sides="6" /> gold pieces</el>
+    </set>
+    <set name="hutPeople">
+        <el><dice n="1" sides="4" /> hunter(s)</el>
+        <el><dice n="1" sides="2" /> herbalist(s)</el>
+        <el>A hermit</el>
+    </set>
+</generator>
